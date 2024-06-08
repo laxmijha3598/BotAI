@@ -1,0 +1,58 @@
+.sidebar {
+    width: 100%;
+}
+
+.closeButton {
+    width: 100%;
+    justify-content: flex-end;
+    color: var(--mui-palette-primary-dark);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.newChat {
+    background-color: var(--mui-palette-primary-main);
+    padding: 16px 24px;
+    &:hover {
+        background-color: var(--mui-palette-primary-bg);
+    }
+}
+
+.icon {
+    height: 42px;
+    width: 42px;
+    border-radius: 2px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+}
+
+.newChatText {
+    font-size: 16px;
+    color: var(--mui-palette-text-primary);
+
+    @media (min-width: 768px) {
+        font-size: 20px;
+    }
+}
+
+.addCommentIcon {
+    color: var(--mui-palette-text-primary);
+}
+
+.historyBox {
+    padding: 16px 24px;
+
+    @media (min-width: 768px) {
+        padding: 24px;
+    }
+}
+
+.historyLink {
+    text-decoration: none;
+}
+
+.historyButton {
+    width: 100%;
+}

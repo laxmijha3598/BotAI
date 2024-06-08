@@ -1,0 +1,19 @@
+.header {
+    width: 100%;
+    background-color: var(--mui-palette-background-default);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+
+    @media (min-width: 768px) {
+        font-size: 32px;
+    }
+}

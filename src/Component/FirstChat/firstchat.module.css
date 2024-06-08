@@ -1,0 +1,12 @@
+.icon {
+    height: 42px;
+    width: 42px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+
+    /* Responsive adjustments */
+    @media (min-width: 768px) {
+        height: 70px;
+        width: 70px;
+    }
+}

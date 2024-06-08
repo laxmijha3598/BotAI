@@ -1,0 +1,44 @@
+.chatInputContainer {
+    flex-shrink: 0;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 1rem;
+
+    @media (min-width: 768px) {
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-bottom: 3rem;
+    }
+}
+
+.textField {
+    flex: 1;
+    background-color: var(--mui-palette-primary-light);
+    border-radius: 4px;
+}
+
+.textField input {
+    font-size: 12px;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+
+    @media (min-width: 768px) {
+        font-size: 16px;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+}
+
+.button {
+    font-size: 12px;
+
+    @media (max-width: 767px) {
+        min-width: 0;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    @media (min-width: 768px) {
+        font-size: 16px;
+    }
+}

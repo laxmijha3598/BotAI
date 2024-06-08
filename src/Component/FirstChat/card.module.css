@@ -1,0 +1,21 @@
+.card {
+    background-color: var(--mui-palette-primary-light);
+    border-radius: 4px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background 200ms ease;
+}
+
+.card:hover {
+    background-color: var(--mui-palette-primary-bglight);
+}
+
+.card:hover .MuiIconButton-root {
+    opacity: 1;
+}
+
+.iconButton {
+    opacity: 0;
+    background-color: var(--mui-palette-primary-bglight);
+    transition: opacity 400ms ease;
+}

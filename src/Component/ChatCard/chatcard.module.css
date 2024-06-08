@@ -1,0 +1,75 @@
+.chatCard {
+    box-shadow: 0 0 4px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    &:hover .feedback-btns {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+.chatAvatar {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+
+    @media (min-width: 768px) {
+        height: 68px;
+        width: 68px;
+    }
+}
+
+.chatHeading {
+    font-weight: 700;
+    font-size: 14px;
+
+    @media (min-width: 768px) {
+        font-size: 16px;
+    }
+}
+
+.chatText {
+    font-size: 12px;
+
+    @media (min-width: 768px) {
+        font-size: 16px;
+    }
+}
+
+.chatTime {
+    font-size: 8px;
+    color: var(--mui-palette-text-secondary);
+
+    @media (min-width: 768px) {
+        font-size: 12px;
+    }
+}
+
+.feedbackBtns {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 400ms ease;
+
+    @media (max-width: 767px) {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+.ratingLegend {
+    font-size: 10px;
+    margin-bottom: 0.5rem;
+
+    @media (min-width: 768px) {
+        font-size: 12px;
+    }
+}
+
+.feedbackText {
+    padding-top: 1rem;
+    font-size: 10px;
+
+    @media (min-width: 768px) {
+        font-size: 16px;
+    }
+}
